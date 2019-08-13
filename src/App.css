@@ -1,0 +1,31 @@
+.collapse_block {
+  width: 700px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 50px;
+  transition: 2s linear;
+}
+
+.collapse_block a {
+  color: black;
+  text-decoration-style: dotted;
+  text-decoration-color: gray;
+}
+.collapse_block a i {
+  vertical-align: middle;
+}
+
+.collapse_content {
+  max-height: 700px;
+  overflow: hidden;
+  transition: 1s linear;
+}
+
+.collapse_content.hidden{
+  visibility: hidden;
+  transition: .5s;
+  max-height: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
