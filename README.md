@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Collapse
+Компонент,  позволяющий скрывать/разворачивать информацию.
 
-## Запуск 
+
+## Запуск проекта
 1. Установка пакетов
    `npm install`
 2. Переход в папку с проектом
