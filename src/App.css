@@ -1,7 +1,7 @@
 .collapse_block {
-  width: 700px;
+  width: 400px;
   border: 1px solid lightgray;
-  padding: 20px;
+  padding: 30px;
   margin: 50px;
   transition: 2s linear;
 }
@@ -21,11 +21,10 @@
   transition: 1s linear;
 }
 
-.collapse_content.hidden{
+.collapse_content.hidden {
   visibility: hidden;
-  transition: .5s;
+  transition: 0.5s;
   max-height: 0;
-
 }
 
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
